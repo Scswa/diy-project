@@ -64,17 +64,17 @@ section div {
 /* These add different background images to the sections with id attributes */
 /* The first is how to change to a selected area */
 #luxury {
-  background-image: url('../images/luxury.jpg');
+  background-image: url('../Images/luxury.jpg');
   background-position: center;
 }
 
 #safari {
-  background-image: url('../images/safari.jpg');
+  background-image: url('../Images/safari.jpg');
   background-position: center;
 }
 
 #cruise {
-  background-image: url('../images/cruise.jpg');
+  background-image: url('../Images/cruise.jpg');
   background-position: center;
 }
 
