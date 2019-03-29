@@ -9,12 +9,12 @@ body {
 header {
   text-align: center;
   background-color: #C6C6C6;
-  padding: 20px 0 0 0;
+  padding: 30px 0 0 0;
 }
 
 nav {
   background-color: #C6C6C6;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 h1 {
@@ -26,6 +26,7 @@ h1 {
 
 h2 {
   text-align: center;
+  transform: translate(-5%);
   padding: 20px 0 0 0;
 }
 
@@ -52,7 +53,7 @@ section {
 
 /* The section .name (luxury) color - text, background-color - background */
 section div {
-  padding: 0 40px;
+  padding: 0 30px;
 }
 
 /* This styles up elements in html with a class of .big-image */
@@ -81,7 +82,6 @@ section div {
 div {
   /* This moves the topic content vertically down inside the sections with text. To adjust position, increase or decrease the percentage*/
   transform: translateY(25%);
-  display: block;
 }
 
 form {
@@ -97,6 +97,7 @@ form {
 textarea {
   height: 100px;
   resize: none;
+  text-align: center;
 }
 
 form button {
@@ -105,24 +106,25 @@ form button {
 }
 
 button {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: #000000;
-  font-size: 12px;
-  background: #ffffff;
-  padding: 5px 10px 1px 10px;
-  text-decoration: none;
+  width: 30%;
+  background-color: transparent;
+  border: 2px solid #333333;
+  border-radius: 10px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  align: center;
 }
 
 button:hover {
-  #C6C6C6
+  border-color: white;
+  color: green;
+  text-decoration: underline;
 }
 
 /* can you make stuff transparent
 how can i change an individual title to the right while the rest are left
 h1 background doesnt fill properly*/
 form {
-  background-color: rgb(189, 214, 235);
+  background-color: #C6C6C6;
 }
