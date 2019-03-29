@@ -81,6 +81,7 @@ section div {
 div {
   /* This moves the topic content vertically down inside the sections with text. To adjust position, increase or decrease the percentage*/
   transform: translateY(25%);
+  display: block;
 }
 
 form {
