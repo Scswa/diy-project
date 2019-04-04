@@ -56,27 +56,26 @@ section div {
   padding: 0 30px;
 }
 
-/* This styles up elements in html with a class of .big-image */
-.big-image {
-  /* This stretches the background images to cover the sections */
-  background-size: cover;
-}
-
 /* These add different background images to the sections with id attributes */
 /* The first is how to change to a selected area */
 #luxury {
   background-image: url('../images/luxury.jpg');
-  background-position: center;
 }
 
 #safari {
   background-image: url('../images/safari.jpg');
-  background-position: center;
 }
 
 #cruise {
   background-image: url('../images/cruise.jpg');
-  background-position: center;
+}
+
+.scroll-effect {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  background-position: right;
+  background-size: cover;
 }
 
 div {
